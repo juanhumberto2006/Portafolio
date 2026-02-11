@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Humberto Vega Sánchez | Full Stack Developer</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/img/notebook.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home"><i class="fas fa-code"></i> JHV</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Inicio</a></li>
+                <li><a href="#about" class="nav-link">Sobre mí</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h2>Hola, soy</h2>
+                <h1 class="hero-title">
+                    Juan <span class="highlight-red">Humberto</span>
+                </h1>
+                <span class="hero-subtitle">Full Stack Developer</span>
+                <p class="hero-description">
+                    Especialista en crear soluciones digitales robustas y escalables. Transformo ideas complejas en código limpio y eficiente.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Ver Proyectos</a>
+                    <a href="#contact" class="btn btn-secondary">Contactarme</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <!-- Using a placeholder that looks professional/dark -->
+                    <img src="./assets/img/hero-image.png" alt="Juan Humberto Vega Sánchez">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Pasión por el Desarrollo de Software</h3>
+                    <p>
+                        Soy Juan Humberto Vega Sánchez, un desarrollador apasionado con una sólida trayectoria en la creación de aplicaciones web y sistemas empresariales. 
+                        Mi enfoque combina la estética del diseño moderno con la robustez del backend, asegurando que cada proyecto no solo se vea bien, sino que funcione a la perfección.
+                    </p>
+                    <p>
+                        Me dedico a aprender continuamente nuevas tecnologías para ofrecer las mejores soluciones a mis clientes.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>3+</h4>
+                            <p>Años Exp.</p>
+                        </div>
+                        <div class="stat">
+                            <h4>15+</h4>
+                            <p>Proyectos</p>
+                        </div>
+                        <div class="stat">
+                            <h4>100%</h4>
+                            <p>Compromiso</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <!-- Optional secondary image or code snippet illustration -->
+                    <div class="skill-category" style="height: 100%; display: flex; align-items: center; justify-content: center; border: 2px solid var(--primary-color);">
+                        <i class="fas fa-laptop-code" style="font-size: 8rem; color: var(--primary-color);"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Mis Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fab fa-react"></i> Frontend</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <span>React.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>HTML5 & CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript (ES6+)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <span>Node.js / Express</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Python / Django</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Java / Spring Boot</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Herramientas</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <span>SQL (MySQL, PostgreSQL)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Git & GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Docker</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <!-- Project 1: Sistema Tienda Virtual DISTRICARNES -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sistema Tienda Virtual DISTRICARNES</h3>
+                        <p>Plataforma completa de comercio electrónico para la gestión y venta de productos cárnicos. Incluye panel administrativo, gestión de inventario y pasarela de pagos.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" title="Ver Código"><i class="fab fa-github"></i></a>
+                            <a href="#" title="Ver Demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Tienda_Lentes -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-glasses"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Tienda_Lentes</h3>
+                        <p>E-commerce especializado en óptica con probador virtual (AR). Diseño moderno y experiencia de usuario optimizada para la selección de monturas y lentes.</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" title="Ver Código"><i class="fab fa-github"></i></a>
+                            <a href="#" title="Ver Demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: CHAT-BOT -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>CHAT-BOT Inteligente</h3>
+                        <p>Asistente virtual impulsado por IA para atención al cliente automatizada. Capaz de responder consultas frecuentes y agendar citas en tiempo real.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>NLP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" title="Ver Código"><i class="fab fa-github"></i></a>
+                            <a href="#" title="Ver Demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contáctame</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>juanhumberto@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p>https://www.linkedin.com/in/juan-humberto-vega-vega-984836335/</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p>github.com/juanhumberto2006</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Tu email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Tu mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/573108392866?text=Hola%20Juan%20Humberto,%20vi%20tu%20portafolio%20y%20me%20gustaría%20contactarte." class="whatsapp-btn" target="_blank" title="Contáctame por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Juan Humberto Vega Sánchez. Hecho con ❤️ y código limpio.</p>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
